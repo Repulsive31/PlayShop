@@ -1,0 +1,130 @@
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+/* Untuk navBar */
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 1px 0px 0px black;
+}
+
+.nav-logo img{
+    padding: 5px;
+    width: 200px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    align-content: end;
+    list-style: none;
+    gap: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 2px;
+    border-radius: 10px;
+    background: black;
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav-login-cart button{
+    width: 90px;
+    height: 35px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    background: white;
+    cursor: pointer;
+}
+
+.nav-login-cart img{
+    width: 35px;
+}
+
+/* Untuk searchForm */
+
+
+.searchForm{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.searchForm button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.searchForm img{
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer input{
+    width: 50em;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+/* ItemBar */
+
+.itemBar{
+    margin-bottom: 5px;
+    padding: 0px;
+    font-style: italic;
+    font-size: 21px;
+    box-shadow: 0px 2px 0px 0px black;
+  }
+  
+  .itemBar p{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
