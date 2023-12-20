@@ -248,8 +248,8 @@ body{
 }
 
 .cartContainer{
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: column;
 }
 
 .cartContainer hr{
@@ -283,18 +283,38 @@ body{
     margin-bottom: 3px;
 }
 
-.cartCard {
+.cartContent {
     display: flex;
-    align-items: center; 
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cartContentLabel{
+    display: flex;
+    flex-direction: row;
 }
 
 .checkBtn {
+    align-self: center;
     margin-right: 10px
 }
 
 .checkBtn img{
     width: 15px;
     height: auto;
+}
+
+.checkBtn button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.cartCard {
+    box-sizing: border-box; 
+    align-items: center;
+    width: 70rem;
+    margin-right: 20px;
 }
 
 .cartProduct {
@@ -318,5 +338,68 @@ body{
 }
 
 .cartExtra {
+    margin-right: 15px;
+    margin-top: auto;
     margin-left: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardCheckout {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-bottom: auto;
+    text-align: center; /* Center the text horizontally */
+}
+
+.cardCheckout h1 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.checkoutUser{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.checkoutUser p{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.checkoutDescTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.checkoutDescTop p{
+    margin-bottom: 5px;
+}
+
+.checkoutLine hr{
+    border: none;
+    border-top: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.checkoutDescBot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.checkoutBtn button{
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
 }
