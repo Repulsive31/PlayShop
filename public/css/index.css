@@ -350,7 +350,7 @@ body{
     border: 2px solid black;
     margin-left: auto;
     margin-bottom: auto;
-    text-align: center; /* Center the text horizontally */
+    text-align: center;
 }
 
 .cardCheckout h1 {
@@ -402,4 +402,111 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     margin-bottom: 20px;
+}
+
+.adminTitle hr{
+    border: none;
+    border-top: 2px solid black;
+}
+
+.adminTitle h2{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.adminContainer{
+    display: flex;
+}
+
+.adminItem{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminItem p{
+    margin: 0;
+}
+
+.adminBox{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successTitle hr{
+    border: none;
+    border-top: 2px solid black;
+}
+
+.successTitle h2{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.successBack{
+    display: flex;
+}
+
+.listTitle hr{
+    border: none;
+    border-top: 2px solid black;
+}
+
+.listTitle h1{
+    margin: 0;
+}
+
+.listCard{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.listBar hr{
+    border: none;
+    border-top: 2px solid black;
+}
+
+.listProduct{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.listTab{
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.listTab p{
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.listTab img{
+    width: 15px;
+    height: auto;
+}
+
+.listTab button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
