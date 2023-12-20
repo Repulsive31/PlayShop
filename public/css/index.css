@@ -1,3 +1,7 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
 a{
     margin: 0;
     padding: 0;
@@ -128,3 +132,191 @@ body{
     padding-top: 20px;
     padding-bottom: 5px;
   }
+
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.userLogin{
+    display: flex;
+    flex-direction: column;
+}
+
+.profilePage{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileContainer{
+    border: 2px solid black;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+}
+
+.profileContainer img{
+    width: 300px;
+    height: 300px;
+}
+
+.showProfile{
+    justify-content: center;
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.productCard{
+    border: 2px solid black;
+    display: flex;
+    align-self: center;
+    width: 318px;
+    height: 318px;
+    margin-right: 25px;
+}
+
+.productCard img{
+    width: 300px;
+    height: 300px;
+}
+
+.productDetail{
+    display: flex;
+    flex-direction: row;
+}
+
+.productDetailCard{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.productInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfo h2{
+    margin: 0px;
+}
+
+.productInfo hr{
+    margin-top: 10px;
+    width: 500px;
+}
+
+.productUnder{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.productUnder p{
+    margin: 0px;
+    margin-right: 5px;
+}
+
+.productPriceStock{
+    margin-bottom: 25px;
+}
+
+.productPriceStock h3{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.productButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: auto;
+}
+
+.productButtons button{
+    margin-right: 10px;
+}
+
+.cartContainer{
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.cartContainer hr{
+    border: 1px solid black;
+}
+
+.cartTitle h1{
+    margin: 0px;
+}
+
+.checkAllButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkAllButton a {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.checkAllButton img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px; /* Adjust margin as needed */
+}
+
+.checkAllButton p{
+    margin: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.cartCard {
+    display: flex;
+    align-items: center; 
+}
+
+.checkBtn {
+    margin-right: 10px
+}
+
+.checkBtn img{
+    width: 15px;
+    height: auto;
+}
+
+.cartProduct {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.cartImg img{
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.cartProductInfo {
+    margin-left: 10px;
+}
+
+.cartProductInfo p{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.cartExtra {
+    margin-left: auto;
+}
